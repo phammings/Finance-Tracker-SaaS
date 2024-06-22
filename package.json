@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate:pg --schema db/schema.ts --out ./drizzle",
+    "db:migrate": "tsx ./scripts/migrate.ts",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@clerk/backend": "^1.2.4",
@@ -34,6 +37,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "dotenv": "^16.4.5",
     "drizzle-kit": "^0.20.17",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
