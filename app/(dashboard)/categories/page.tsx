@@ -10,7 +10,7 @@ import {
 
 import { Loader2, Plus } from "lucide-react";
 import { columns } from "./columns";
-import { DataTable } from "@/components/data-table";
+import { DataTable } from "@/components/Data-table";
 import { Skeleton } from "@/components/ui/skeleton";
 
 import { useNewCategory } from "@/features/categories/hooks/use-new-category";
