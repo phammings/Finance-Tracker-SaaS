@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react";
-import { useConfirm } from "@/hooks/use-confirm"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
@@ -26,6 +25,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
+import { useConfirm } from "@/hooks/use-confirm";
 import { Trash } from "lucide-react";
 
 interface DataTableProps<TData, TValue> {
@@ -43,11 +43,10 @@ export function DataTable<TData, TValue>({
     onDelete,
     disabled,
 }: DataTableProps<TData, TValue>) {
-    const[ConfirmDialog, confirm] = useConfirm(
+    const [ConfirmDialog, confirm] = useConfirm(
         "Are you sure?",
         "You are about to perform a bulk delete."
     );
-
 
     const [sorting, setSorting] = React.useState<SortingState>([]);
     const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
@@ -100,7 +99,7 @@ export function DataTable<TData, TValue>({
                         }}
                     >
                         <Trash className="size-4 mr-2" />
-                        Delete ({table.getFilteredSelectedRowModel().rows.length})
+                        Delete ({table.getFilteredSelectedRowModel().rows.length});
                     </Button>
                 )}
             </div>
