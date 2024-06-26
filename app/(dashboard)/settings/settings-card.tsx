@@ -7,6 +7,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
+
 import { Separator } from "@/components/ui/separator";
 import { PlaidConnect } from "@/features/plaid/components/plaid-connect";
 import { useGetConnectedBank } from "@/features/plaid/api/use-get-connected-bank";
@@ -16,6 +17,7 @@ import { SubscriptionCheckout } from "@/features/subscriptions/components/subscr
 import { Skeleton } from "@/components/ui/skeleton";
 import { Loader2 } from "lucide-react";
 import { useGetSubscription } from "@/features/subscriptions/api/use-get-subscription";
+
 
 export const SettingsCard = () => {
     const {
@@ -27,8 +29,6 @@ export const SettingsCard = () => {
         data: subscription,
         isLoading: isLoadingSubscription,
     } = useGetSubscription();
-
-    const subscription = null
 
     if (isLoadingConnectedBank || isLoadingSubscription) {
         return (
@@ -69,6 +69,7 @@ export const SettingsCard = () => {
                                 ? "Bank account connected"
                                 : "No bank account connected"
                             }
+
                         </div>
                         {connectedBank
                             ? <PlaidDisconnect />

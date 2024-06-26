@@ -8,7 +8,7 @@ import summary from "./summary";
 import plaid from  "./plaid";
 import subsriptions from "./subscriptions";
 
-export const runtime = "edge";
+// export const runtime = "edge";
 
 const app = new Hono().basePath("/api");
 
