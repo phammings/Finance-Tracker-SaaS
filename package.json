@@ -59,7 +59,7 @@
     "react-plaid-link": "^3.5.2",
     "react-select": "^5.8.0",
     "react-use": "^17.5.0",
-    "recharts": "^2.12.7",
+    "recharts": "^2.13.0-alpha.3",
     "shadcn-ui": "^0.8.0",
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.3.0",
