@@ -64,29 +64,21 @@ This project aims to provide a comprehensive example of building a production-re
 <!-- ROADMAP -->
 ## Roadmap
 
-- ✔️ Develop an interactive financial dashboard.
-- ✔️ Enable changeable chart types for better data visualization.
-- ✔️ Add account and date filters to customize views.
+- ✔️ Develop an interactive financial dashboard
+- ✔️ Enabled changeable chart types for better data visualization.
+- ✔️ Add account and date filters to customize views
 - ✔️ Include a detailed transactions table for comprehensive financial tracking.
-- ✔️ Create a form to add new transactions easily.
-- ✔️ Incorporate customizable select components for user preferences.
-- ✔️ Implement an income and expense toggle for quick financial insights.
-- ✔️ Support CSV transaction imports for seamless data integration.
+- ✔️ Support CSV transaction imports for transaction data integration.
 - ✔️ Set up an API using Hono.js.
 - ✔️ Manage state using Tanstack React Query.
-- ✔️ Connect to bank accounts via Plaid.
-- ✔️ Facilitate premium upgrades using Lemon Squeezy.
 - ✔️ Ensure user authentication with Clerk (Core 2).
-- ✔️ Enable bulk delete and search functionality in transactions.
-- ✔️ Implement bank disconnection and subscription management features.
-- ✔️ Allow user settings customization for a personalized experience.
 - ✔️ Build the application using Next.js 14.
 - ✔️ Style the app with TailwindCSS and Shadcn UI.
 - ✔️ Utilize Neon (PostgreSQL) for database management.
 - ✔️ Use Drizzle for database migrations.
-- ✔️ Integrate subscription management through Lemon Squeezy.
+- ✔️ Integrate premium plan subscription management through Lemon Squeezy.
 - ✔️ Connect with banks and import transactions using Plaid.
-- ✔️ Deploy the application on Vercel.
+- ✔️ Deploy the application on Vercel with custom domain from AWS Route53.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
