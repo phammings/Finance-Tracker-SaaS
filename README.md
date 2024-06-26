@@ -39,7 +39,7 @@ The subscription managemet is backed by LemonSqueezy, a Plaid alternative, for m
 
 This project aims to provide a comprehensive example of building a production-ready Finance Tracker SaaS, covering key aspects such as authentication, data management, and payment processing.
 
-## [Live Demo 🔗](financetracker.ryanlepham.com)
+## [Live Demo 🔗](https://financetracker.ryanlepham.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
