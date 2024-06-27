@@ -131,7 +131,18 @@ LEMONSQUEEZY_PRODUCT_ID=
 ```shell
 npm run db:generate
 npm run db:migrate
+```
+
+#### Populate the database with mock data
+
+```shell
 npm run db:seed
+or import Sample.csv
+```
+
+#### Open the local Drizzle database GUI
+
+```shell
 npm run db:studio
 ```
 
